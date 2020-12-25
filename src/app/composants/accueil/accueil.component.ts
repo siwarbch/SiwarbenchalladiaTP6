@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'siw-accuei',
-  templateUrl: './accuei.component.html',
-  styleUrls: ['./accuei.component.css']
+  selector: 'siw-accueil',
+  templateUrl: './accueil.component.html',
+  styleUrls: ['./accueil.component.css']
 })
-export class AccueiComponent implements OnInit {
+export class AccueilComponent implements OnInit {
   nomSupermarket: string = "Chez Nous";
   lesCategories= [
   {nom:'informatique', image:'assets/Images/informatique.jpg'},
