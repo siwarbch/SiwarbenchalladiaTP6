@@ -1,0 +1,7 @@
+<div class="col-6" *ngIf="afficher">
+    <h2>Liste des commentaires</h2>
+    
+    <div *ngFor= "let t of materiel.commentaires; index as i"> 
+    <siw-comment [comm]="t" [indice]="i"></siw-comment>
+</div>
+</div>
