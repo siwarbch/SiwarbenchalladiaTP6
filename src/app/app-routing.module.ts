@@ -9,9 +9,9 @@ import { ListmaterielComponent } from './composants/informatique/listmateriel/li
 const routes: Routes = [
   {path:'accueil', component:AccueilComponent},
   {path:'listmateriel', component:ListmaterielComponent},
+  {path:'listmateriel/:id' , component:DetailmaterielComponent},
   {path:'contact', component:ContactComponent},
   {path:'', redirectTo:'accueil' , pathMatch:'full'},
-  {path:'listmateriel/:id' , component:DetailmaterielComponent},
   {path:'**', component:Error404Component}
 ];
 
